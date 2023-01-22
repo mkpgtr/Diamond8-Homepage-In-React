@@ -1,0 +1,68 @@
+/* ! remove default card bottom border  */
+
+.card{
+    --bs-card-border-width:0;
+}
+
+/* ! customizing the background of list-group */
+
+.list-group{
+    --bs-list-group-bg:lightgoldenrodyellow;
+    --bs-list-group-color: rgba(170, 92, 52, 0.916);
+}
+
+.card .list-group-item{
+    border-bottom: 0;
+}
+
+footer{
+    background-color:lightgoldenrodyellow;
+    font-family: 'Clash Display';
+}
+
+.copyright-row .copyright-col span{
+    color:rgba(170, 92, 52, 0.916);
+}
+
+/* ! footer card styles */
+
+.card{
+    border:0;
+}
+
+footer  h4.card-header{
+    background-color:lightgoldenrodyellow;
+    color:rgba(170, 92, 52, 0.916);
+    font-family: 'Clash Display';
+}
+
+footer .card ul {
+    min-height: 10rem;
+    background: lightgoldenrodyellow;
+}
+footer a{
+    text-decoration: none;
+    color:rgba(170, 92, 52, 0.916);
+}
+
+
+@media(min-width:768px){
+    footer .card ul {
+        min-height: 0rem;
+        background: lightgoldenrodyellow;
+    }
+    .card .list-group-item{
+        font-size: 1.3rem;
+    }
+}
+
+@media(min-width:992px){
+    .footer-kids.card ul{
+        min-height: 12rem;
+    }
+    .card .list-group-item{
+        font-size: 1.3rem;
+    }
+    
+   
+}

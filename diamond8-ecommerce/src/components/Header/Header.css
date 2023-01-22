@@ -1,0 +1,205 @@
+header{
+    position: sticky;
+    top:0;
+    z-index:99;
+}
+
+.navbar-brand{
+    font-size: 2rem;
+    /* !apply margin right to cart and login button in the navbar */
+    margin-left: 3.5%;
+    font-family: 'Striper',sans-serif;
+    color:rgba(170, 92, 52, 0.916);
+}
+
+.navbar-nav .nav-item{
+    font-size: 1.4rem;
+    font-family: 'Striper';
+    
+}
+.navbar-nav .nav-item a.nav-link{
+    color:rgba(170, 92, 52, 0.916);
+    
+}
+
+.cart-n-loginbtn{
+    /* !apply margin left to navbar brand */
+    margin-right: 6%;
+}
+
+
+.nav-search .search-btn, .cart-n-loginbtn .btn.btn-primary {
+    background-color:rgba(170, 92, 52, 0.916);
+    color:lightgoldenrodyellow;
+    font-variant: small-caps;
+    font-size: 1.4rem;
+    border:3px double lightgoldenrodyellow;
+}
+
+.nav-search .search-input{
+    font-size: 1.4rem;
+    background-color: lightgoldenrodyellow;
+    border:3px double rgba(170, 92, 52, 0.916);
+}
+.second-nav .container-fluid{
+    background-color: rgba(170, 92, 52, 0.916);
+}
+.second-nav .container-fluid .nav-item a{
+    color:lightgoldenrodyellow;
+
+}
+
+
+.first-nav .container-fluid{
+    background-color: #EAE0CC;
+    padding-top:0;
+    background-color: lightgoldenrodyellow;
+}
+
+/* ! remove padding to remove the white-areas on the navbar */
+.navbar{
+    padding:0;
+}
+
+
+
+
+.first-nav{
+    background-color: lightgoldenrodyellow;
+}
+
+.nav-search{
+    justify-content: center;
+    gap:0;
+}
+
+
+.nav-search, .search-input{
+    align-items: center;
+    /* border:2px solid black; */
+    border-bottom-left-radius: 20px;
+}
+
+.nav-search,.nav-search .search-btn{
+    
+    border-top-right-radius: 20px;
+}
+
+
+
+
+
+@media(min-width:768px){
+    /* ! responsive nav-styles for min width 768px */
+    .navbar-brand{
+        font-size: 2.8rem;
+        /* !apply margin right to cart and login button in the navbar */
+        margin-left: 5.5%;
+        font-family: 'Striper',sans-serif;
+        /* font-weight: 800; */
+        color:rgba(170, 92, 52, 0.916);
+    }
+    
+    .navbar-nav .nav-item{
+        font-size: 1.4rem;
+        font-family: 'Striper';
+        
+    }
+    .navbar-nav .nav-item a.nav-link{
+        color:rgba(170, 92, 52, 0.916);
+        
+    }
+
+    .cart-n-loginbtn{
+        /* !apply margin left to navbar brand */
+        margin-right: 6%;
+    }
+   
+
+    .nav-search .search-btn, .cart-n-loginbtn .btn.btn-primary {
+        background-color:rgba(170, 92, 52, 0.916);
+        color:lightgoldenrodyellow;
+        font-variant: small-caps;
+        font-size: 1.4rem;
+        border:3px double lightgoldenrodyellow;
+    }
+
+    .nav-search .search-input{
+        font-size: 1.4rem;
+        background-color: lightgoldenrodyellow;
+        border:3px double rgba(170, 92, 52, 0.916);
+    }
+    .second-nav .container-fluid{
+        background-color: rgba(170, 92, 52, 0.916);
+    }
+    .second-nav .container-fluid .nav-item a{
+        color:lightgoldenrodyellow;
+
+    }
+
+    .dropdown-menu{
+        font-size: 1.4rem;
+        text-align: center;
+    }
+}
+
+@media(min-width:992px){
+    .navbar-brand{
+        font-size: 3rem;
+        /* !apply margin right to cart and login button in the navbar */
+        margin-left: 5.5%;
+        font-family: 'Striper',sans-serif;
+        font-weight: 800;
+        color:rgba(170, 92, 52, 0.916);
+    }
+    
+    .navbar-nav .nav-item{
+        font-size: 1.4rem;
+        font-family: 'Striper';
+        
+    }
+    .navbar-nav .nav-item a.nav-link{
+        color:rgba(170, 92, 52, 0.916);
+        
+    }
+
+    .cart-n-loginbtn{
+        /* !apply margin left to navbar brand */
+        margin-right: 6%;
+    }
+   
+
+    .nav-search .search-btn, .cart-n-loginbtn .btn.btn-primary {
+        background-color:rgba(170, 92, 52, 0.916);
+        color:lightgoldenrodyellow;
+        font-variant: small-caps;
+        font-size: 1.4rem;
+        border:3px double lightgoldenrodyellow;
+    }
+
+    .nav-search .search-input{
+        font-size: 1.4rem;
+        background-color: lightgoldenrodyellow;
+        border:3px double rgba(170, 92, 52, 0.916);
+    }
+    .second-nav .container-fluid{
+        background-color: rgba(170, 92, 52, 0.916);
+    }
+    .second-nav .container-fluid .nav-item a{
+        color:lightgoldenrodyellow;
+
+    }
+    .dropdown-menu{
+        font-size: 1.4rem;
+        text-align: center;
+    }
+}
+
+@media (min-width:1200px){
+    .search-input{
+        width: 34rem;
+    }
+    .nav-search{
+        margin-right: 5%;
+    }
+}
